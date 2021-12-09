@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+p, h1, h2, h3, ul, ol, div {
+    text-align: center;
+    font-family: monospace;
+}
+p {
+    color: antiquewhite;  
+}
+h1 {
+    color: antiquewhite;
+}
+h2 {
+    color: antiquewhite;
+}
+h3 {
+    color: antiquewhite;
+}
+ul {
+    color: antiquewhite;
+}
+ol {
+    color: antiquewhite;
+}
+img {
+    height: auto;
+    width: 450px;
+    border-radius: 20px;
+}
+.index {
+    list-style: none;
+}
