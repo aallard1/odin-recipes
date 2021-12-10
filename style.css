@@ -2,32 +2,48 @@ body {
     background-color: black;
 }
 p, h1, h2, h3, ul, ol, div {
-    text-align: center;
     font-family: monospace;
+    color: antiquewhite;
 }
 p {
-    color: antiquewhite;  
+    
+    margin: 2em;
+    text-align: center;
 }
 h1 {
-    color: antiquewhite;
+    text-align: center;
 }
 h2 {
-    color: antiquewhite;
+    text-align: center;
 }
 h3 {
-    color: antiquewhite;
+    text-align: center;
 }
 ul {
-    color: antiquewhite;
+    margin: 1em 30em 1em 30em;
+    padding: 1em 3em 1em 3em;
+    border-color: antiquewhite;
+    border-style: dotted;
+    border-radius: 1em;
+    text-align: left;
 }
 ol {
-    color: antiquewhite;
+    margin: 1em 15em 1em 15em;
+    padding: 1em 3em 1em 3em;
+    border-color: antiquewhite;
+    border-style: dotted;
+    border-radius: 1em;
+    text-align: left;
 }
 img {
     height: auto;
     width: 450px;
     border-radius: 20px;
 }
+div {
+    text-align: center;
+}
 .index {
     list-style: none;
+    text-align: center;
 }
