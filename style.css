@@ -23,7 +23,8 @@ ul {
     margin: 1em 30em 1em 30em;
     padding: 1em 3em 1em 3em;
     border-color: antiquewhite;
-    border-style: dotted;
+    background-color: #47476b;
+    border-style: double;
     border-radius: 1em;
     text-align: left;
 }
@@ -31,7 +32,8 @@ ol {
     margin: 1em 15em 1em 15em;
     padding: 1em 3em 1em 3em;
     border-color: antiquewhite;
-    border-style: dotted;
+    background-color: #47476b;
+    border-style: double;
     border-radius: 1em;
     text-align: left;
 }
@@ -42,6 +44,9 @@ img {
 }
 div {
     text-align: center;
+}
+a {
+    color:antiquewhite;
 }
 .index {
     list-style: none;
