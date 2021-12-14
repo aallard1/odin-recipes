@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #29293d;
 }
 p, h1, h2, h3, ul, ol, div {
     font-family: monospace;
@@ -8,15 +8,8 @@ p, h1, h2, h3, ul, ol, div {
 p {
     
     margin: 2em;
-    text-align: center;
 }
-h1 {
-    text-align: center;
-}
-h2 {
-    text-align: center;
-}
-h3 {
+h1, h2, h3 , p {
     text-align: center;
 }
 ul {
@@ -51,4 +44,9 @@ a {
 .index {
     list-style: none;
     text-align: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
