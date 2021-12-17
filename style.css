@@ -1,5 +1,7 @@
 body {
-    background-color: #29293d;
+    background-image: url(./images/bgimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 p, h1, h2, h3, ul, ol, div {
     font-family: monospace;
@@ -13,19 +15,17 @@ h1, h2, h3 , p {
     text-align: center;
 }
 ul {
-    margin: 1em 30em 1em 30em;
-    padding: 1em 3em 1em 3em;
+    padding: 1em 2em 1em 2em;
     border-color: antiquewhite;
-    background-color: #47476b;
+    background-color: #29293d;
     border-style: double;
     border-radius: 1em;
     text-align: left;
 }
 ol {
-    margin: 1em 15em 1em 15em;
     padding: 1em 3em 1em 3em;
     border-color: antiquewhite;
-    background-color: #47476b;
+    background-color: #29293d;
     border-style: double;
     border-radius: 1em;
     text-align: left;
@@ -49,4 +49,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
+    margin-left: 16em;
+    margin-right: 16em;
+    /* border-radius: 20px; */
 }
